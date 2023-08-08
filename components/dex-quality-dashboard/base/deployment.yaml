@@ -33,7 +33,7 @@ spec:
         - /usr/local/bin/dex
         - serve
         - /etc/dex/cfg/config.yaml
-        image: ghcr.io/dexidp/dex:v2.36.0
+        image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/dex-quality-dashboard@sha256:f6b7fb4ff5cac96c7dec7cbb42c9fa80919465bf7a96063d185f227bf07b70ec
         name: dex
         ports:
         - containerPort: 5555
